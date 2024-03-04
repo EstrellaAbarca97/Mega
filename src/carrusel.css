@@ -1,0 +1,18 @@
+.carrusel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .carrusel-container img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carrusel-container img.active {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,46 @@
+/* App.css */
+
+/* Estilos para el componente Main */
+.Main {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+}
+
+/* Estilos para el componente Header */
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Estilos para los enlaces */
+.Link {
+  color: white;
+}
+
+.Separator {
+  color: white;
+  margin: 0 5px;
+}
+
+/* Estilos para el icono de ubicación */
+.LocationIcon {
+  width: 24px; /* Ajusta el tamaño según sea necesario */
+  height: 24px; /* Ajusta el tamaño según sea necesario */
+  margin-right: 5px;
+}
+
+/* Estilos para los iconos de redes sociales */
+.SocialIcon {
+  color: white;
+  font-size: 24px; /* Ajusta el tamaño según sea necesario */
+  margin-right: 10px;
+}
+
+/* Estilos para el texto del teléfono */
+.PhoneText {
+  color: white;
+  font-size: 16px; /* Ajusta el tamaño según sea necesario */
+}
